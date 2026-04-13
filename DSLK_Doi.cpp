@@ -72,7 +72,7 @@ void DSLK_Doi::xoaNode(const string& maHD) {
         return;
     }
 
-    // Nếu node là đầu
+
     if (p == head) {
         head = head->next;
         if (head != nullptr) {
